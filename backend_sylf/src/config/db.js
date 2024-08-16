@@ -8,6 +8,7 @@ const connectDB = async() => {
         user: 'root',
         password: 'new_password',
         port: 33061,
+        database: 'sylf'
         });
         console.log('Connected to the MYSQL Database');
         return connection;
